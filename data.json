@@ -1,0 +1,185 @@
+{
+"Autonics": [
+    { "Type":"Sensor",
+       "Detail":[
+         { "sub_Type": "Sensores de proximidad",
+           "Description": "Los sensores de proximidad son soluciones comunes, confiables y durables para aplicaciones que requieren detección sin contacto.",
+           "Detail": "Proximidad",
+           "image" :"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269937418_admin_0.jpg",
+           "products": [
+             { "name": "Tipo inductivo cilíndrico ",
+               "Serie": [
+                 { "name": "Serie PRD ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269937418_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/PRD_PRDW_CAT_130715.pdf",
+                   "Description":"Sensor de proximidad Inductivo de larga distancia."
+                 },
+                 { "name": "Serie PRCM ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1197424726_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/1373877024_APLICATION_CAT_130715.pdf",
+                   "Description":"Cilíndrico con conector"
+                 },
+                 { "name": "Serie PR ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269937455_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/PR_CAT_130715.pdf",
+                   "Description":"Tipo cilíndrico con cable"
+                 },
+                 { "name": "Serie PRA ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269937436_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/pra_en_cat_170814_hw.pdf",
+                   "Description":"Tipo campo de soldadura inmunológico"
+                 },
+                 { "name": "Serie PRW",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1198630227_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/prw_en_cat_170814_hw.pdf",
+                   "Description":"Conector / Cable-cilíndrico"
+                 }
+               ],
+             },
+             { "name": " Tipo Capacitivo  ",
+               "Serie": [
+                 { "name": "Serie CR ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269937400_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/CR_cat_eng_ACA-KE-07-0140E_160309.pdf",
+                   "Description":"Sensor de proximidad tipo capacitivo eléctrico"
+                 }
+               ]
+             }
+           ]
+         },
+         { "sub_Type": "Sensores fotoeléctricos",
+           "Description": "Los sensores fotoeléctricos se usan para detectar la distancia, ausencia o presencia de objetos mediante un transmisor y receptor de luz.",
+           "Detail": "Fotoeléctricos",
+           "image": "http://download.autonics.com/phpThumb/phpThumb.php?src=../img/products_n/Photoelectric_Sensors.png&w=200",
+           "combinations": [
+             { "name": "Tipo cilíndrico",
+               "Serie": [
+                 { "name": "Serie BR ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269937591_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/BR_CAT_130715.pdf",
+                   "Description":"Sensores fotoeléctricos cilíndricos tipo Retroreflectivo"
+                 }
+               ]
+             }
+           ]
+         },
+         { "sub_Type": "Sensores de Área",
+           "Description": "El sensor de área es de fácil instalación y es usado para aplicaciones de propósito general, no está diseñado para aplicaciones de seguridad, utiliza multi haces de luz para la detección de objetos en movimiento en áreas específicas.",
+           "Detail": "Area",
+           "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1473301873_admin_mklee_0.jpg",
+           "combinations": [
+             { "name": "Sensor de área",
+               "Serie": [
+                 { "name": "Serie BW ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1473301873_admin_mklee_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/BR_CAT_130715.pdf",
+                   "Description":"Sensor de área, no minimiza la zona de detección"
+                 }
+               ]
+             }
+           ]
+         },
+         { "sub_Type": "Sensores de fibra óptica",
+           "Description": "Los sensores de fibra óptica son la solución perfecta para varias aplicaciones en detección por medio de sensores remotos con cables de fibra óptica y amplificadores.",
+           "Detail": "Fibra_optica",
+           "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../img/products_n/Fiber_Optic_Sensors.png",
+           "combinations": [
+             { "name": "Tipo cilíndrico",
+               "Serie": [
+                 { "name": "Serie BF5  ",
+                   "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1279530890_admin_0.jpg",
+                   "catalogo":"http://download.autonics.com/upload/data/BF5_CAT_130715.pdf",
+                   "Description":"Amplificador de fibra óptica con indicación digital."
+                 }
+               ]
+             }
+           ]
+         }
+       ]
+     },
+     { "Type":"Controladores",
+        "Detail" :[
+          { "sub_Type": "Controles de Temperatura",
+            "Description": "Los controladores de temperatura se usan para recibir la medición de temperatura y liberar salidas para mantener las temperaturas deseadas.",
+            "Detail": "Temperatura",
+            "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../img/products_n/1458784370_admin_mklee_0.jpg",
+            "products": [
+              { "name": "Tipo PID",
+                "Serie": [
+                  { "name": "Serie TK",
+                    "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1464161192_admin_mklee_0.jpg",
+                    "catalogo":"http://download.autonics.com/upload/data/TK_CAT_130715.pdf",
+                    "Description":"Controladores de temperatura PID de alta precisión"
+                  },
+                  { "name": "Serie TZN/TZ ",
+                    "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269938676_admin_0.jpg",
+                    "catalogo":"http://download.autonics.com/upload/data/TZ_TZN_CAT_130715.pdf",
+                    "Description":"Controlador de temperatura Doble PID con auto sintonía."
+                  }
+                ]
+              },
+              { "name": " Tipo Digital ",
+                "Serie": [
+                  { "name": "Serie T4LP ",
+                    "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269938304_admin_0.jpg",
+                    "catalogo":"http://download.autonics.com/upload/data/T4LP_CAT_130715.pdf",
+                    "Description":"Controlador de Temperatura de alta precisión, tipo de ajuste doble"
+                  }
+                ]
+              }
+            ]
+          },
+          { "sub_Type": "Contadores",
+            "Description": "Los Contadores, ampliamente utilizados en líneas de fabricación y sisemas de automatización, muestran y controlan las señales de los pulsos recibidos desde los dispositivos de entrada.",
+            "Detail": "Contadores",
+            "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../img/products_n/Counters.png",
+            "products": [
+              { "name": "Contador / Timer ",
+                "Serie": [
+                  { "name": "Serie CTY/CTS/CTM ",
+                    "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1428546362_admin_0.jpg",
+                    "catalogo":"http://download.autonics.com/upload/data/CT_CAT_130715.pdf",
+                    "Description":"DIN W72xH36mm, W48xH48mm, W72xH72mm"
+                  }
+                ]
+              },
+              { "name": "Contadores LCD miniatura",
+                "Serie": [
+                  { "name": "Serie LA8N",
+                    "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1269939035_admin_0.jpg",
+                    "catalogo":"http://download.autonics.com/upload/data/LA8N_CAT_130715.pdf",
+                    "Description":"Contador LCD, solo tipo Indicador, DIN W48Xh24mm"
+                  }
+                ]
+              }
+            ]
+          },
+          { "sub_Type": "Temporizadores",
+            "Description": "Los Temporizadores, digitales y analógicos, se usan ampliamente en varios proceso industriales para controlar el tiempo de dispositivos o monitorear los ciclos de vida de dispositivos.",
+            "Detail": "Temporizador",
+            "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../img/products_n/Timers.png",
+            "products": [
+              { "name": "Temporizador Digital ",
+                "Serie": [
+                  { "name": "Serie LE4S ",
+                    "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1290658399_admin_0.jpg",
+                    "catalogo":"http://download.autonics.com/upload/data/LE4S_EN_W_150918.pdf",
+                    "Description":"Temporizador digital LCD con luz de fondo"
+                  }
+                ]
+              },
+              { "name": "Temporizador Analógico ",
+                "Serie": [
+                  { "name": "Serie ATN ",
+                    "image":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1422257302_admin_twkoo_0.jpg",
+                    "catalogo":"http://download.autonics.com/upload/data/ATN_CAT_130715.pdf",
+                    "Description":"Temporizador Multi-función, Estado sólido DIN W48xH48mm"
+                  }
+                ]
+              }
+            ]
+          },
+      ]
+    },
+ ]
+}
