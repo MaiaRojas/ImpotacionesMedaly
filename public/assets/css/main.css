@@ -1,1 +1,1 @@
-body{background-color:red}
+*{box-sizing:border-box}body{margin:0;padding:0}nav .company-logo{background-image:url("../img/logo.jpg");width:60px;height:100%;background-size:350px 80px;margin-left:10px}nav .name-company{margin-left:80px}.tabs{display:flex;flex-direction:row;justify-content:space-around}.tabs .tab a{font-size:1rem;font-weight:700}.tabs .indicator{background:none}.facebook-icon{display:inline-block;border:1px solid white;border-radius:50px;width:35px;height:35px;background-image:url("../img/facebook-icon.png");background-size:cover}

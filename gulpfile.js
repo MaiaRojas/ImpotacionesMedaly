@@ -83,28 +83,6 @@ gulp.task("img-watch", ["img"], function (done) {
 // });
 
 
-
-gulp.task('browser-sync', ['nodemon'], () => {
-  browserSync.init(null, {
-    // proxy: "http://localhost:3000",
-    //     files: ["public/**/*.*"],
-    //     port: 7000,
-    injectChanges: true,
-    
-    proxy: {
-      target: 'localhost:3000',
-      ws: true
-
-    }
-});
-
-  gulp.watch(sources.img, ["img-watch"]);
-  gulp.watch(sources.sass, ["sass"]);
-  gulp.watch(sources.rootJS, ["js"]);
-  gulp.watch(sources.html, ["html-watch"]);
-
-});
-
 gulp.task('nodemon', function(cb){
 
   const started = false;
@@ -118,5 +96,37 @@ gulp.task('nodemon', function(cb){
     }
   });
 });
-gulp.task('default', ['browser-sync'], function () {
+// gulp.task('browser-sync', ['nodemon'], () => {
+//   browserSync.init(null, {
+//     proxy: "http://localhost:3000",
+//     //     files: ["public/**/*.*"],
+//     //     port: 7000,
+//     // injectChanges: true,
+    
+//     // proxy: {
+//     //   target: 'localhost:3000',
+//     //   ws: true
+
+//     // }
+//   });
+
+//   gulp.watch(sources.sass, ["sass"]);
+//   gulp.watch(sources.js, ["js"]);
+//   gulp.watch(sources.img, ["img-watch"]);
+//   gulp.watch(sources.html, ["html-watch"]);
+
+// });
+
+gulp.task('serve', () => {
+  browserSync.init({
+    server: {
+      baseDir: config.dist
+    }
+  });
+  gulp.watch(sources.sass, ['sass']);
+  gulp.watch(sources.js, ['js']);
+  gulp.watch(sources.img, ['img-watch']);
+  gulp.watch(sources.html, ['html-watch']);
 });
+gulp.task('default', ['serve']);
+// gulp.task('default', ['browser-sync']);
