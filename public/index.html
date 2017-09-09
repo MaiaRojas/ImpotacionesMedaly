@@ -8,8 +8,22 @@
         <title>Importaciones</title>
     </head>
     <body>
-        <span>hola</span>
-
+        <div id="root"></div>
+        <h1 id ="holaMundo"></h1>
+        <span>Importaciones Medaly</span>
+        <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyA84VGptU3uQcCtJAwoLNOZGDWEZzI4jM0",
+            authDomain: "prueba3-dbefe.firebaseapp.com",
+            databaseURL: "https://prueba3-dbefe.firebaseio.com",
+            projectId: "prueba3-dbefe",
+            storageBucket: "",
+            messagingSenderId: "756679060139"
+          };
+          firebase.initializeApp(config);
+        </script>
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" charset="utf-8"></script>
         <script src="assets/js/app.js" charset="utf-8"></script>
     </body>
