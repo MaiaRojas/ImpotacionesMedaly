@@ -1,0 +1,32 @@
+{ "denominacion": "Sensores de Área",
+  "descripcion": "El sensor de área es de fácil instalación y es usado para aplicaciones de propósito general, no está diseñado para aplicaciones de seguridad, utiliza multi haces de luz para la detección de objetos en movimiento en áreas específicas.",
+  "detalle": "Area",
+  "imagen":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1473301873_admin_mklee_0.jpg",
+  "sub_variedad": [
+    { "nombre": "Sensor de área",
+      "serie": [
+        { "modelo": "Serie BW ",
+          "imagen":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1473301873_admin_mklee_0.jpg",
+          "catalogo":"http://download.autonics.com/upload/data/BR_CAT_130715.pdf",
+          "contenido":"Sensor de área, no minimiza la zona de detección"
+        }
+      ]
+    }
+  ]
+},
+{ "denominacion": "Sensores de fibra óptica",
+  "descripcion": "Los sensores de fibra óptica son la solución perfecta para varias aplicaciones en detección por medio de sensores remotos con cables de fibra óptica y amplificadores.",
+  "detalle": "Fibra_optica",
+  "imagen":"http://download.autonics.com/phpThumb/phpThumb.php?src=../img/products_n/Fiber_Optic_Sensors.png",
+  "sub_variedad": [
+    { "nombre": "Tipo cilíndrico",
+      "serie": [
+        { "modelo": "Serie BF5  ",
+          "imagen":"http://download.autonics.com/phpThumb/phpThumb.php?src=../upload/mst_products/1279530890_admin_0.jpg",
+          "catalogo":"http://download.autonics.com/upload/data/BF5_CAT_130715.pdf",
+          "contenido":"Amplificador de fibra óptica con indicación digital."
+        }
+      ]
+    }
+  ]
+}
